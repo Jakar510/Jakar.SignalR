@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Jakar.SignalR.Chats.Shared</PackageId>
+        <Version>10.1.0-alpha.1</Version>
+        <Description>The models and strongly typed contracts (IChatHub, IChatClient) shared by the Jakar.SignalR.Chats chat client and server.</Description>
+        <PackageTags>signalr chat realtime hub contracts</PackageTags>
+        <RootNamespace>Jakar.SignalR.Chats</RootNamespace>
+        <IsAotCompatible>true</IsAotCompatible>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Jakar.Extensions"/>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.Json"/>
+    </ItemGroup>
+
+</Project>

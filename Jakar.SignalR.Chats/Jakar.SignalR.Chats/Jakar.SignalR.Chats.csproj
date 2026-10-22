@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Jakar.SignalR.Chats</PackageId>
+        <Version>10.1.0-alpha.1</Version>
+        <Description>A strongly typed SignalR chat client (IChatHub, IChatClient): any number of rooms, presence and typing, messages with attachments that survive lost connections, and history that catches up after reconnecting.</Description>
+        <PackageTags>signalr chat realtime client maui wpf blazor</PackageTags>
+        <RootNamespace>Jakar.SignalR.Chats</RootNamespace>
+        <IsAotCompatible>true</IsAotCompatible>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions"/>
+        <ProjectReference Include="..\Jakar.SignalR.Chats.Shared\Jakar.SignalR.Chats.Shared.csproj"/>
+    </ItemGroup>
+
+</Project>

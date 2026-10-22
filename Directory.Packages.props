@@ -6,7 +6,11 @@
   <ItemGroup>
     <PackageVersion Include="Jakar.Extensions" Version="10.10.0" />
     <PackageVersion Include="Microsoft.AspNetCore.SignalR.Client" Version="10.0.13" />
-    <PackageVersion Include="Microsoft.AspNetCore.SignalR.Common" Version="10.0.13" />
     <PackageVersion Include="Microsoft.AspNetCore.SignalR.Protocols.Json" Version="10.0.13" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.13" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.11.0" />
+    <PackageVersion Include="NUnit" Version="5.0.0" />
+    <PackageVersion Include="NUnit.Analyzers" Version="4.15.0" />
+    <PackageVersion Include="NUnit3TestAdapter" Version="6.3.1" />
   </ItemGroup>
 </Project>

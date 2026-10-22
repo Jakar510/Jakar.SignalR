@@ -1,3 +1,8 @@
 <Solution>
-  <Project Path="Jakar.SignalR.Chat/Jakar.Extensions.SignalR.csproj" />
+  <Folder Name="/Jakar.SignalR.Chats/">
+    <Project Path="Jakar.SignalR.Chats/Jakar.SignalR.Chats.Shared/Jakar.SignalR.Chats.Shared.csproj" />
+    <Project Path="Jakar.SignalR.Chats/Jakar.SignalR.Chats/Jakar.SignalR.Chats.csproj" />
+    <Project Path="Jakar.SignalR.Chats/Jakar.SignalR.Chats.Server/Jakar.SignalR.Chats.Server.csproj" />
+    <Project Path="Jakar.SignalR.Chats/Jakar.SignalR.Chats.Tests/Jakar.SignalR.Chats.Tests.csproj" />
+  </Folder>
 </Solution>

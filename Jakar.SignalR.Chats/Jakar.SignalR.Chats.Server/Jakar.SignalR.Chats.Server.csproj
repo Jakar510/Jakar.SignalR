@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>Jakar.SignalR.Chats.Server</PackageId>
+        <Version>10.1.0-alpha.1</Version>
+        <Description>A strongly typed ASP.NET Core SignalR chat hub (Hub&lt;IChatClient&gt;, IChatHub): rooms, presence, typing, idempotent messages with attachments, and paged history.</Description>
+        <PackageTags>signalr chat realtime hub server aspnetcore</PackageTags>
+        <RootNamespace>Jakar.SignalR.Chats</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        <ProjectReference Include="..\Jakar.SignalR.Chats.Shared\Jakar.SignalR.Chats.Shared.csproj"/>
+    </ItemGroup>
+
+</Project>

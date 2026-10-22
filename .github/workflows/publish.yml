@@ -1,7 +1,7 @@
 name: Publish
 
 # Every push to master runs CI, then packs these packages and pushes them to nuget.org, in dependency order:
-#   Jakar.Extensions.SignalR
+#   Jakar.SignalR.Chats.Shared, Jakar.SignalR.Chats, Jakar.SignalR.Chats.Server
 # A version that's already on nuget.org is skipped, so a release is a commit that bumps <Version> in a project file.
 # Versions are <.NET major>.<library major>.<library minor>: the pack step stops (and nothing is pushed) when a package's
 # first number isn't its target's .NET major, which also catches a project with no <Version> (MSBuild's default is 1.0.0).
@@ -60,7 +60,9 @@ jobs:
         run: |
           set -euo pipefail
           packages=(
-            Jakar.SignalR.Chat/Jakar.Extensions.SignalR.csproj
+            Jakar.SignalR.Chats/Jakar.SignalR.Chats.Shared/Jakar.SignalR.Chats.Shared.csproj
+            Jakar.SignalR.Chats/Jakar.SignalR.Chats/Jakar.SignalR.Chats.csproj
+            Jakar.SignalR.Chats/Jakar.SignalR.Chats.Server/Jakar.SignalR.Chats.Server.csproj
           )
 
           failed=0
